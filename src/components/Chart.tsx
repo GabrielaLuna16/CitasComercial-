@@ -49,14 +49,14 @@ export default function Chart({ data }: ChartProps) {
 
       for (let v = 0; v <= yMax; v++) {
         const y = PAD.top + ph - (v / yMax) * ph;
-        ctx.strokeStyle = '#eeedeb';
+        ctx.strokeStyle = '#e0edf2';
         ctx.lineWidth = 0.7;
         ctx.beginPath();
         ctx.moveTo(PAD.left, y);
         ctx.lineTo(w - PAD.right, y);
         ctx.stroke();
-        ctx.fillStyle = '#c0c0c0';
-        ctx.font = '300 10px Plus Jakarta Sans';
+        ctx.fillStyle = '#9dbac8';
+        ctx.font = '400 10px Karla';
         ctx.textAlign = 'right';
         ctx.fillText(String(v), PAD.left - 10, y + 3.5);
       }
@@ -64,8 +64,8 @@ export default function Chart({ data }: ChartProps) {
       data.forEach((d, i) => {
         const p = xy(i, 0);
         const isEmpty = d.agendadas === 0 && d.asistidas === 0;
-        ctx.fillStyle = isEmpty ? '#d5d5d5' : '#b0b0b0';
-        ctx.font = '400 10px Plus Jakarta Sans';
+        ctx.fillStyle = isEmpty ? '#c8dde5' : '#7fa0b0';
+        ctx.font = '500 10px Karla';
         ctx.textAlign = 'center';
         ctx.save();
         ctx.translate(p.x, h - PAD.bottom + 14);
@@ -90,8 +90,8 @@ export default function Chart({ data }: ChartProps) {
         ctx.fillStyle = g;
         ctx.fill();
       }
-      fillArea(ptsAg, '#5b8dee');
-      fillArea(ptsAs, '#b07ce8');
+      fillArea(ptsAg, '#008fbe');
+      fillArea(ptsAs, '#3fc2ad');
 
       function strokeLine(pts: { x: number; y: number }[], color: string) {
         ctx.beginPath();
@@ -102,8 +102,8 @@ export default function Chart({ data }: ChartProps) {
         ctx.lineCap = 'round';
         ctx.stroke();
       }
-      strokeLine(ptsAg, '#5b8dee');
-      strokeLine(ptsAs, '#b07ce8');
+      strokeLine(ptsAg, '#008fbe');
+      strokeLine(ptsAs, '#3fc2ad');
 
       function drawDots(
         pts: { x: number; y: number }[],
@@ -123,7 +123,7 @@ export default function Chart({ data }: ChartProps) {
           ctx.lineWidth = 1.8;
           ctx.stroke();
 
-          ctx.font = '600 10px Plus Jakarta Sans';
+          ctx.font = '700 10px Karla';
           ctx.textAlign = 'center';
           ctx.fillStyle = color;
 
@@ -135,8 +135,8 @@ export default function Chart({ data }: ChartProps) {
           ctx.fillText(String(val), p.x, p.y + offsetY);
         });
       }
-      drawDots(ptsAg, '#5b8dee', 'agendadas');
-      drawDots(ptsAs, '#b07ce8', 'asistidas');
+      drawDots(ptsAg, '#008fbe', 'agendadas');
+      drawDots(ptsAs, '#3fc2ad', 'asistidas');
     }
 
     resize();

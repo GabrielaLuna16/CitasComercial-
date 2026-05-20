@@ -1,43 +1,94 @@
 .main {
-  padding: 40px 24px 60px;
+  padding: 0 0 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+.topBar {
+  width: 100%;
+  background: #3b5260;
+  padding: 14px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 36px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.brandDot {
+  width: 28px;
+  height: 28px;
+  background: #008fbe;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: -0.5px;
+}
+
+.brandName {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.3px;
+}
+
+.brandSub {
+  font-size: 0.72rem;
+  color: #9dbac8;
+  font-weight: 400;
+}
+
+.uploadLink {
+  font-size: 0.78rem;
+  color: #3fc2ad;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+
+.uploadLink:hover { text-decoration: underline; }
+
 .header {
   text-align: center;
-  margin-bottom: 32px;
+  margin-bottom: 28px;
+  padding: 0 24px;
 }
 
 .header h1 {
-  font-family: 'Instrument Serif', serif;
+  font-family: 'Karla', sans-serif;
   font-size: 2rem;
-  font-weight: 400;
-  color: #1d1d1d;
-  letter-spacing: -0.3px;
+  font-weight: 800;
+  color: #304450;
+  letter-spacing: -0.5px;
   margin-bottom: 6px;
 }
 
 .header p {
   font-size: 0.82rem;
-  color: #a0a0a0;
+  color: #7fa0b0;
   font-weight: 400;
   letter-spacing: 0.3px;
-  margin-bottom: 10px;
 }
 
-.uploadLink {
-  font-size: 0.78rem;
-  color: #5b8dee;
-  text-decoration: none;
-  font-weight: 500;
+.dashWrapper {
+  width: 100%;
+  padding: 0 24px;
+  display: flex;
+  justify-content: center;
 }
-
-.uploadLink:hover { text-decoration: underline; }
 
 .footer {
   margin-top: 32px;
   font-size: 0.72rem;
-  color: #ccc;
+  color: #9dbac8;
 }

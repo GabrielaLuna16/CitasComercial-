@@ -1,12 +1,12 @@
 .wrapper {
   width: 100%;
   max-width: 520px;
-  margin: 60px auto;
+  margin: 48px auto;
   padding: 0 24px;
 }
 
 .dropzone {
-  border: 2px dashed #d8d8d5;
+  border: 2px dashed #b8d8e5;
   border-radius: 16px;
   padding: 60px 40px;
   text-align: center;
@@ -16,13 +16,13 @@
 }
 
 .dropzone:hover {
-  border-color: #5b8dee;
-  background: #f7f9ff;
+  border-color: #008fbe;
+  background: #f0f9fd;
 }
 
 .dragging {
-  border-color: #5b8dee;
-  background: #f0f5ff;
+  border-color: #008fbe;
+  background: #e6f5fb;
 }
 
 .loading {
@@ -37,24 +37,24 @@
 
 .main {
   font-size: 1rem;
-  font-weight: 600;
-  color: #1d1d1d;
+  font-weight: 700;
+  color: #304450;
   margin-bottom: 6px;
 }
 
 .hint {
   font-size: 0.8rem;
-  color: #aaa;
+  color: #9dbac8;
 }
 
 .msgSuccess {
   margin-top: 20px;
   padding: 14px 18px;
   border-radius: 10px;
-  background: #e6f7ea;
-  color: #2d8a44;
+  background: #e0f5f2;
+  color: #0d8a77;
   font-size: 0.85rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .msgError {
@@ -64,5 +64,5 @@
   background: #fce8e8;
   color: #c94a4a;
   font-size: 0.85rem;
-  font-weight: 500;
+  font-weight: 600;
 }
