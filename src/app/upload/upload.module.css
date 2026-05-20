@@ -1,0 +1,46 @@
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 28px;
+  border-bottom: 1px solid #ededeb;
+  background: #fff;
+}
+
+.brand {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: #1d1d1d;
+  letter-spacing: 0.5px;
+}
+
+.backLink {
+  font-size: 0.82rem;
+  color: #5b8dee;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.backLink:hover { text-decoration: underline; }
+
+.content {
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 0 24px;
+  text-align: center;
+}
+
+.title {
+  font-family: 'Instrument Serif', serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #1d1d1d;
+  margin-top: 48px;
+  margin-bottom: 10px;
+}
+
+.sub {
+  font-size: 0.83rem;
+  color: #aaa;
+  line-height: 1.6;
+}

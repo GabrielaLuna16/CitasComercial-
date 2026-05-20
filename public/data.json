@@ -1,0 +1,59 @@
+{
+  "generado": "2026-05-20T11:53:00Z",
+  "semanas": [
+    "Semana 03", "Semana 04", "Semana 05", "Semana 06", "Semana 07",
+    "Semana 08", "Semana 09", "Semana 10", "Semana 11", "Semana 12",
+    "Semana 13", "Semana 14", "Semana 15", "Semana 16", "Semana 17", "Semana 18"
+  ],
+  "citas": {
+    "Semana 03": [
+      { "fecha": "15/01/2026", "titulo": "Llamada: Gabriel - CCP", "estatus": "Asistió", "proyecto": "CCP", "interes": "Medio" }
+    ],
+    "Semana 04": [
+      { "fecha": "20/01/2026", "titulo": "CITA: Anayanci - CCP", "estatus": "Asistió", "proyecto": "CCP", "interes": "Medio" },
+      { "fecha": "22/01/2026", "titulo": "CITA: Omar - CCP", "estatus": "Asistió", "proyecto": "CCP", "interes": "Medio" },
+      { "fecha": "23/01/2026", "titulo": "Llamada: Jesus - CCP", "estatus": "Asistió", "proyecto": "CCP", "interes": "Bajo" }
+    ],
+    "Semana 05": [
+      { "fecha": "26/01/2026", "titulo": "CITA: Guillermo - CCP", "estatus": "Asistió", "proyecto": "CCP", "interes": "Medio" },
+      { "fecha": "28/01/2026", "titulo": "CITA: Manuel - PP", "estatus": "Asistió", "proyecto": "PP", "interes": "Medio" }
+    ],
+    "Semana 06": [],
+    "Semana 07": [
+      { "fecha": "10/02/2026", "titulo": "CITA: Rosario - PP", "estatus": "Asistió", "proyecto": "PP", "interes": "Medio" },
+      { "fecha": "13/02/2026", "titulo": "CITA: Oscar - CCP", "estatus": "No asistió / Canceló", "proyecto": "CCP", "interes": "-" }
+    ],
+    "Semana 08": [
+      { "fecha": "17/02/2026", "titulo": "CITA: Javier - PP", "estatus": "Asistió", "proyecto": "PP", "interes": "Medio" }
+    ],
+    "Semana 09": [],
+    "Semana 10": [
+      { "fecha": "03/03/2026", "titulo": "CITA: Karlo - CCP", "estatus": "No asistió / Canceló", "proyecto": "CCP", "interes": "-" }
+    ],
+    "Semana 11": [
+      { "fecha": "13/03/2026", "titulo": "CITA: Rosario - PP", "estatus": "Asistió", "proyecto": "PP", "interes": "Alto" }
+    ],
+    "Semana 12": [
+      { "fecha": "17/03/2026", "titulo": "CITA: Antonio - CCP", "estatus": "Asistió", "proyecto": "CCP", "interes": "Alto" }
+    ],
+    "Semana 13": [
+      { "fecha": "27/03/2026", "titulo": "CITA: Ivan - CCP", "estatus": "Asistió", "proyecto": "CCP", "interes": "Alto" }
+    ],
+    "Semana 14": [
+      { "fecha": "01/04/2026", "titulo": "CITA: Adriana - CCP", "estatus": "Reprogramada", "proyecto": "CCP", "interes": "-" }
+    ],
+    "Semana 15": [
+      { "fecha": "06/04/2026", "titulo": "CITA: Nadia - CCP", "estatus": "No asistió / Canceló", "proyecto": "CCP", "interes": "-" },
+      { "fecha": "09/04/2026", "titulo": "CITA: Emanuel - PP", "estatus": "Asistió", "proyecto": "PP", "interes": "Medio" }
+    ],
+    "Semana 16": [
+      { "fecha": "17/04/2026", "titulo": "CITA: Norma - CCP", "estatus": "No asistió / Canceló", "proyecto": "CCP", "interes": "-" }
+    ],
+    "Semana 17": [],
+    "Semana 18": [
+      { "fecha": "27/04/2026", "titulo": "CITA: Edgar - PP", "estatus": "Asistió", "proyecto": "PP", "interes": "Medio" },
+      { "fecha": "29/04/2026", "titulo": "CITA: Gloria - PP", "estatus": "No asistió / Canceló", "proyecto": "PP", "interes": "-" },
+      { "fecha": "29/04/2026", "titulo": "CITA: Restaurante coreano - CCP", "estatus": "Asistió", "proyecto": "CCP", "interes": "Medio" }
+    ]
+  }
+}
