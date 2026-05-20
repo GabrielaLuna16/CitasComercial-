@@ -20,20 +20,10 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
-      <div className={styles.topBar}>
-        <div className={styles.brand}>
-          <div className={styles.brandDot}>CP</div>
-          <div>
-            <div className={styles.brandName}>Centro Comercial Pacífico</div>
-            <div className={styles.brandSub}>Dashboard de Citas Comerciales</div>
-          </div>
-        </div>
-        <Link href="/upload" className={styles.uploadLink}>Actualizar datos →</Link>
-      </div>
-
       <div className={styles.header}>
         <h1>Citas CCP &amp; PP</h1>
         <p>Seguimiento semanal · Agendadas vs Asistidas</p>
+        <Link href="/upload" className={styles.uploadLink}>Actualizar datos →</Link>
       </div>
 
       <div className={styles.dashWrapper}>

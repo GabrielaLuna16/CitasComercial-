@@ -1,68 +1,27 @@
 .main {
-  padding: 0 0 60px;
+  padding: 40px 0 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
-.topBar {
-  width: 100%;
-  background: #3b5260;
-  padding: 14px 32px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 36px;
-}
-
-.brand {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.brandDot {
-  width: 28px;
-  height: 28px;
-  background: #008fbe;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 0.75rem;
-  font-weight: 800;
-  color: #fff;
-  letter-spacing: -0.5px;
-}
-
-.brandName {
-  font-size: 0.85rem;
-  font-weight: 700;
-  color: #fff;
-  letter-spacing: 0.3px;
-}
-
-.brandSub {
-  font-size: 0.72rem;
-  color: #9dbac8;
-  font-weight: 400;
-}
-
-.uploadLink {
-  font-size: 0.78rem;
-  color: #3fc2ad;
-  text-decoration: none;
-  font-weight: 600;
-  letter-spacing: 0.2px;
-}
-
-.uploadLink:hover { text-decoration: underline; }
 
 .header {
   text-align: center;
   margin-bottom: 28px;
   padding: 0 24px;
 }
+
+.uploadLink {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 0.78rem;
+  color: #008fbe;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+
+.uploadLink:hover { text-decoration: underline; }
 
 .header h1 {
   font-family: 'Karla', sans-serif;
