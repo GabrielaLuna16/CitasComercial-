@@ -65,9 +65,15 @@ export function parseExcelBuffer(buffer: Buffer): DashboardData {
     citasMap[currentWeek].push({ fecha, titulo: colC, estatus: colD, proyecto: colE, interes });
   }
 
-  // Fill gaps between min and max week with empty arrays
+  // Siempre iniciar desde Semana 01 hasta la semana actual del año
+  const now = new Date();
+  const startOfYear = new Date(now.getFullYear(), 0, 1);
+  const dayOfYear = Math.floor((now.getTime() - startOfYear.getTime()) / 86400000);
+  const currentWeekNum = Math.ceil((dayOfYear + startOfYear.getDay() + 1) / 7);
+  const effectiveMax = Math.max(maxWeek, currentWeekNum);
+
   const allSemanas: string[] = [];
-  for (let w = minWeek; w <= maxWeek; w++) {
+  for (let w = 1; w <= effectiveMax; w++) {
     const label = `Semana ${String(w).padStart(2, '0')}`;
     allSemanas.push(label);
     if (!citasMap[label]) citasMap[label] = [];

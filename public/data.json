@@ -1,11 +1,14 @@
 {
   "generado": "2026-05-20T11:53:00Z",
   "semanas": [
-    "Semana 03", "Semana 04", "Semana 05", "Semana 06", "Semana 07",
-    "Semana 08", "Semana 09", "Semana 10", "Semana 11", "Semana 12",
-    "Semana 13", "Semana 14", "Semana 15", "Semana 16", "Semana 17", "Semana 18"
+    "Semana 01", "Semana 02", "Semana 03", "Semana 04", "Semana 05",
+    "Semana 06", "Semana 07", "Semana 08", "Semana 09", "Semana 10",
+    "Semana 11", "Semana 12", "Semana 13", "Semana 14", "Semana 15",
+    "Semana 16", "Semana 17", "Semana 18", "Semana 19", "Semana 20", "Semana 21"
   ],
   "citas": {
+    "Semana 01": [],
+    "Semana 02": [],
     "Semana 03": [
       { "fecha": "15/01/2026", "titulo": "Llamada: Gabriel - CCP", "estatus": "Asistió", "proyecto": "CCP", "interes": "Medio" }
     ],
@@ -54,6 +57,9 @@
       { "fecha": "27/04/2026", "titulo": "CITA: Edgar - PP", "estatus": "Asistió", "proyecto": "PP", "interes": "Medio" },
       { "fecha": "29/04/2026", "titulo": "CITA: Gloria - PP", "estatus": "No asistió / Canceló", "proyecto": "PP", "interes": "-" },
       { "fecha": "29/04/2026", "titulo": "CITA: Restaurante coreano - CCP", "estatus": "Asistió", "proyecto": "CCP", "interes": "Medio" }
-    ]
+    ],
+    "Semana 19": [],
+    "Semana 20": [],
+    "Semana 21": []
   }
 }
