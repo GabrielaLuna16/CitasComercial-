@@ -41,10 +41,11 @@ export function parseExcelBuffer(buffer: Buffer): DashboardData {
     const row = rows[i];
     const colA = String(row[0] ?? '').trim();
     const colB = row[1];
-    const colC = String(row[2] ?? '').trim();
-    const colD = String(row[3] ?? '').trim();
-    const colE = String(row[4] ?? '').trim() as Proyecto;
-    const colF = String(row[5] ?? '').trim();
+    const colC = String(row[2] ?? '').trim(); // Contact Name
+    const colD = String(row[3] ?? '').trim(); // Title
+    const colE = String(row[4] ?? '').trim(); // Estatus
+    const colF = String(row[5] ?? '').trim() as Proyecto; // Proyecto
+    const colG = String(row[6] ?? '').trim(); // Interés
 
     if (colA) {
       currentWeek = weekLabel(colA);
@@ -57,12 +58,12 @@ export function parseExcelBuffer(buffer: Buffer): DashboardData {
       if (weekNum > maxWeek) maxWeek = weekNum;
     }
 
-    if (!currentWeek || !colC) continue;
+    if (!currentWeek || !colD) continue;
 
     const fecha = typeof colB === 'number' ? excelDateToString(colB) : String(colB);
-    const interes = colF || '-';
+    const interes = colG || '-';
 
-    citasMap[currentWeek].push({ fecha, titulo: colC, estatus: colD, proyecto: colE, interes });
+    citasMap[currentWeek].push({ fecha, contacto: colC, titulo: colD, estatus: colE, proyecto: colF, interes });
   }
 
   // Siempre iniciar desde Semana 01 hasta la semana actual del año

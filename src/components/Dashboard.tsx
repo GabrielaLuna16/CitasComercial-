@@ -113,6 +113,7 @@ export default function Dashboard({ data }: { data: DashboardData }) {
               <tr>
                 <th>Semana</th>
                 <th>Fecha</th>
+                <th>Contacto</th>
                 <th>Cita</th>
                 <th>Estatus</th>
                 <th>Proyecto</th>
@@ -133,6 +134,7 @@ export default function Dashboard({ data }: { data: DashboardData }) {
                         <br />
                         <span className={styles.weekMeta}>0 agendadas · 0 asistidas</span>
                       </td>
+                      <td style={{ borderTop: borderStyle }}>—</td>
                       <td style={{ borderTop: borderStyle }}>—</td>
                       <td style={{ borderTop: borderStyle }}>Sin citas registradas</td>
                       <td style={{ borderTop: borderStyle }}>—</td>
@@ -159,8 +161,9 @@ export default function Dashboard({ data }: { data: DashboardData }) {
                       </td>
                     )}
                     <td style={{ borderTop: li === 0 ? borderStyle : undefined }}>{lead.fecha}</td>
+                    <td style={{ borderTop: li === 0 ? borderStyle : undefined }}>{lead.contacto}</td>
                     <td
-                      style={{ borderTop: li === 0 ? borderStyle : undefined, fontWeight: 500, color: '#1d1d1d' }}
+                      style={{ borderTop: li === 0 ? borderStyle : undefined, fontWeight: 500, color: '#304450' }}
                     >
                       {lead.titulo}
                     </td>

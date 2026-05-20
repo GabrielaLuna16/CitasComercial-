@@ -4,6 +4,7 @@ export type Interes = 'Alto' | 'Medio' | 'Bajo' | '-' | '';
 
 export interface Cita {
   fecha: string;
+  contacto: string;
   titulo: string;
   estatus: string;
   proyecto: Proyecto;
