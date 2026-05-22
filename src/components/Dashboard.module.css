@@ -186,9 +186,9 @@
 
 /* Interés badges */
 .badge { display: inline-block; padding: 3px 10px; border-radius: 20px; font-size: 0.68rem; font-weight: 700; }
-.badgeAlto  { background: #DC2626; color: #fff; }
+.badgeAlto  { background: #E11D48; color: #fff; }
 .badgeMedio { background: #F59E0B; color: #fff; }
-.badgeBajo  { background: #3B82F6; color: #fff; }
+.badgeBajo  { background: #2563EB; color: #fff; }
 .badgeNone  { background: #eef5f8; color: #9dbac8; }
 
 /* Proyecto tag */
@@ -198,7 +198,7 @@
   border-radius: 20px;
   font-size: 0.68rem;
   font-weight: 700;
-  background: #2563EB;
+  background: #0D9488;
   color: #fff;
 }
 
@@ -208,6 +208,6 @@
   border-radius: 20px;
   font-size: 0.68rem;
   font-weight: 700;
-  background: #7C3AED;
+  background: #8B5CF6;
   color: #fff;
 }
