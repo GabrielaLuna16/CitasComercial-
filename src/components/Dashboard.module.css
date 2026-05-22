@@ -187,9 +187,9 @@
 
 /* Interés badges */
 .badge { display: inline-block; padding: 3px 10px; border-radius: 20px; font-size: 0.68rem; font-weight: 700; }
-.badgeAlto  { background: #27ae60; color: #fff; }
-.badgeMedio { background: #2980b9; color: #fff; }
-.badgeBajo  { background: #e74c3c; color: #fff; }
+.badgeAlto  { background: #e67e22; color: #fff; }
+.badgeMedio { background: #f0c020; color: #fff; }
+.badgeBajo  { background: #2980b9; color: #fff; }
 .badgeNone  { background: #eef5f8; color: #9dbac8; }
 
 /* Proyecto tag */
