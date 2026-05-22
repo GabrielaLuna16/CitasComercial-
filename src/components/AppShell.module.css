@@ -1,0 +1,84 @@
+.topBar {
+  width: 100%;
+  background: #111111;
+  padding: 14px 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  font-family: 'Karla', sans-serif;
+  font-size: 1rem;
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.uploadBtn {
+  background: #DC2626;
+  color: #fff;
+  font-family: 'Karla', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  padding: 7px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background 0.15s;
+}
+
+.uploadBtn:hover {
+  background: #b91c1c;
+}
+
+.redLine {
+  width: 100%;
+  height: 2px;
+  background: #DC2626;
+}
+
+.tabBar {
+  width: 100%;
+  background: #1a1a1a;
+  display: flex;
+  gap: 0;
+  padding: 0 28px;
+}
+
+.tab {
+  background: transparent;
+  border: none;
+  border-bottom: 3px solid transparent;
+  color: #888888;
+  font-family: 'Karla', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.tab:hover {
+  color: #cccccc;
+}
+
+.tabActive {
+  color: #ffffff;
+  border-bottom-color: #DC2626;
+}
+
+.content {
+  padding: 36px 24px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer {
+  margin-top: 32px;
+  font-size: 0.72rem;
+  color: #9dbac8;
+}
