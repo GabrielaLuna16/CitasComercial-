@@ -171,7 +171,9 @@ export default function Dashboard({ data }: { data: DashboardData }) {
                       {estatusTag(lead.estatus)}
                     </td>
                     <td style={{ borderTop: li === 0 ? borderStyle : undefined }}>
-                      <span className={styles.projTag}>{lead.proyecto}</span>
+                      <span className={lead.proyecto === 'CCP' ? styles.projTagCCP : styles.projTagPP}>
+                        {lead.proyecto}
+                      </span>
                     </td>
                     <td style={{ borderTop: li === 0 ? borderStyle : undefined }}>
                       {interesTag(lead.interes)}

@@ -180,25 +180,35 @@
 .emptyRow .weekMeta { color: #c8dde5; }
 
 /* Estatus tags */
-.tagAsistio     { background: #e0f5f2; color: #0d8a77; padding: 3px 10px; border-radius: 20px; font-size: 0.68rem; font-weight: 700; white-space: nowrap; }
-.tagNo          { background: #fce8e8; color: #c94a4a; padding: 3px 10px; border-radius: 20px; font-size: 0.68rem; font-weight: 700; white-space: nowrap; }
-.tagReprogramada{ background: #fdf5e1; color: #b8860b; padding: 3px 10px; border-radius: 20px; font-size: 0.68rem; font-weight: 700; white-space: nowrap; }
-.tagProgramada  { background: #e0f2fb; color: #008fbe; padding: 3px 10px; border-radius: 20px; font-size: 0.68rem; font-weight: 700; white-space: nowrap; }
+.tagAsistio     { background: #1a7a4a; color: #fff; padding: 3px 10px; border-radius: 20px; font-size: 0.68rem; font-weight: 700; white-space: nowrap; }
+.tagNo          { background: #c0392b; color: #fff; padding: 3px 10px; border-radius: 20px; font-size: 0.68rem; font-weight: 700; white-space: nowrap; }
+.tagReprogramada{ background: #e07b1a; color: #fff; padding: 3px 10px; border-radius: 20px; font-size: 0.68rem; font-weight: 700; white-space: nowrap; }
+.tagProgramada  { background: #008fbe; color: #fff; padding: 3px 10px; border-radius: 20px; font-size: 0.68rem; font-weight: 700; white-space: nowrap; }
 
 /* Interés badges */
 .badge { display: inline-block; padding: 3px 10px; border-radius: 20px; font-size: 0.68rem; font-weight: 700; }
-.badgeAlto  { background: #e0f5f2; color: #0d8a77; }
-.badgeMedio { background: #e0f2fb; color: #008fbe; }
-.badgeBajo  { background: #fce8e8; color: #c94a4a; }
+.badgeAlto  { background: #27ae60; color: #fff; }
+.badgeMedio { background: #2980b9; color: #fff; }
+.badgeBajo  { background: #e74c3c; color: #fff; }
 .badgeNone  { background: #eef5f8; color: #9dbac8; }
 
 /* Proyecto tag */
-.projTag {
+.projTagCCP {
   display: inline-block;
   padding: 3px 10px;
   border-radius: 20px;
   font-size: 0.68rem;
   font-weight: 700;
-  background: #e0f2fb;
-  color: #008fbe;
+  background: #0F52BA;
+  color: #fff;
+}
+
+.projTagPP {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-size: 0.68rem;
+  font-weight: 700;
+  background: #027c68;
+  color: #fff;
 }
