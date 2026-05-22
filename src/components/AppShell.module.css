@@ -1,7 +1,8 @@
 .topBar {
   width: 100%;
-  background: #111111;
-  padding: 14px 28px;
+  background: #ffffff;
+  border-bottom: 1px solid #d6e6ed;
+  padding: 14px 32px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9,76 +10,81 @@
 
 .brand {
   font-family: 'Karla', sans-serif;
-  font-size: 1rem;
+  font-size: 1.05rem;
   font-weight: 800;
-  color: #ffffff;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
+  color: #304450;
+  letter-spacing: 0.3px;
 }
 
 .uploadBtn {
-  background: #DC2626;
+  background: #008fbe;
   color: #fff;
   font-family: 'Karla', sans-serif;
-  font-size: 0.75rem;
+  font-size: 0.78rem;
   font-weight: 700;
-  letter-spacing: 0.6px;
-  padding: 7px 16px;
-  border-radius: 4px;
+  letter-spacing: 0.4px;
+  padding: 8px 18px;
+  border-radius: 6px;
   text-decoration: none;
   transition: background 0.15s;
 }
 
 .uploadBtn:hover {
-  background: #b91c1c;
+  background: #007aa3;
 }
 
 .redLine {
-  width: 100%;
-  height: 2px;
-  background: #DC2626;
+  display: none;
 }
 
 .tabBar {
   width: 100%;
-  background: #1a1a1a;
+  background: #ffffff;
+  border-bottom: 2px solid #d6e6ed;
   display: flex;
   gap: 0;
-  padding: 0 28px;
+  padding: 0 32px;
 }
 
 .tab {
   background: transparent;
   border: none;
   border-bottom: 3px solid transparent;
-  color: #888888;
+  margin-bottom: -2px;
+  color: #7fa0b0;
   font-family: 'Karla', sans-serif;
-  font-size: 0.78rem;
+  font-size: 0.8rem;
   font-weight: 700;
-  letter-spacing: 0.8px;
+  letter-spacing: 0.6px;
   padding: 12px 20px;
   cursor: pointer;
   transition: color 0.15s, border-color 0.15s;
 }
 
 .tab:hover {
-  color: #cccccc;
+  color: #304450;
 }
 
 .tabActive {
-  color: #ffffff;
-  border-bottom-color: #DC2626;
+  color: #008fbe;
+  border-bottom-color: #008fbe;
 }
 
 .content {
-  padding: 36px 24px 60px;
+  padding: 32px 32px 60px;
+  width: 100%;
+}
+
+.summary {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
 }
 
 .footer {
   margin-top: 32px;
   font-size: 0.72rem;
   color: #9dbac8;
+  text-align: center;
 }

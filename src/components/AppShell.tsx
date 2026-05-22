@@ -90,7 +90,7 @@ export default function AppShell({ data, generado }: { data: DashboardData; gene
       <div className={styles.content}>
 
         {/* Pills */}
-        <div className={dash.summary}>
+        <div className={styles.summary}>
           <div className={dash.pill}>
             <div className={`${dash.dot} ${dash.dotBlue}`} />
             <span className={dash.val}>{totalAg}</span>
