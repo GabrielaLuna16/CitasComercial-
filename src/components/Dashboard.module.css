@@ -180,16 +180,16 @@
 .emptyRow .weekMeta { color: #c8dde5; }
 
 /* Estatus tags */
-.tagAsistio     { background: #1a7a4a; color: #fff; padding: 3px 10px; border-radius: 20px; font-size: 0.68rem; font-weight: 700; white-space: nowrap; }
-.tagNo          { background: #c0392b; color: #fff; padding: 3px 10px; border-radius: 20px; font-size: 0.68rem; font-weight: 700; white-space: nowrap; }
-.tagReprogramada{ background: #e07b1a; color: #fff; padding: 3px 10px; border-radius: 20px; font-size: 0.68rem; font-weight: 700; white-space: nowrap; }
+.tagAsistio     { background: #16A34A; color: #fff; padding: 3px 10px; border-radius: 20px; font-size: 0.68rem; font-weight: 700; white-space: nowrap; }
+.tagNo          { background: #DC2626; color: #fff; padding: 3px 10px; border-radius: 20px; font-size: 0.68rem; font-weight: 700; white-space: nowrap; }
+.tagReprogramada{ background: #F59E0B; color: #fff; padding: 3px 10px; border-radius: 20px; font-size: 0.68rem; font-weight: 700; white-space: nowrap; }
 .tagProgramada  { background: #008fbe; color: #fff; padding: 3px 10px; border-radius: 20px; font-size: 0.68rem; font-weight: 700; white-space: nowrap; }
 
 /* Interés badges */
 .badge { display: inline-block; padding: 3px 10px; border-radius: 20px; font-size: 0.68rem; font-weight: 700; }
-.badgeAlto  { background: #e67e22; color: #fff; }
-.badgeMedio { background: #c9920d; color: #fff; }
-.badgeBajo  { background: #1f6fa0; color: #fff; }
+.badgeAlto  { background: #DC2626; color: #fff; }
+.badgeMedio { background: #F59E0B; color: #fff; }
+.badgeBajo  { background: #3B82F6; color: #fff; }
 .badgeNone  { background: #eef5f8; color: #9dbac8; }
 
 /* Proyecto tag */
@@ -199,7 +199,7 @@
   border-radius: 20px;
   font-size: 0.68rem;
   font-weight: 700;
-  background: #0F52BA;
+  background: #2563EB;
   color: #fff;
 }
 
@@ -209,6 +209,6 @@
   border-radius: 20px;
   font-size: 0.68rem;
   font-weight: 700;
-  background: #7d3c98;
+  background: #7C3AED;
   color: #fff;
 }
