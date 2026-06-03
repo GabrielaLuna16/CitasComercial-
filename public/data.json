@@ -1,5 +1,5 @@
 {
-  "generado": "2026-05-25T17:50:33.242Z",
+  "generado": "2026-06-03T16:24:25.411Z",
   "semanas": [
     "Semana 01",
     "Semana 02",
@@ -22,7 +22,8 @@
     "Semana 19",
     "Semana 20",
     "Semana 21",
-    "Semana 22"
+    "Semana 22",
+    "Semana 23"
   ],
   "citas": {
     "Semana 03": [
@@ -213,12 +214,54 @@
     ],
     "Semana 22": [
       {
+        "fecha": "26/05/2026",
+        "contacto": "Abraham N/A",
+        "titulo": "CITA: Abraham - CCP",
+        "estatus": "Asistió",
+        "proyecto": "CCP",
+        "interes": "Bajo"
+      },
+      {
         "fecha": "29/05/2026",
         "contacto": "Josue Arceo",
         "titulo": "CITA: Josue - CCP",
-        "estatus": "Programada",
+        "estatus": "No asistío / Canceló",
         "proyecto": "CCP",
         "interes": "-"
+      }
+    ],
+    "Semana 23": [
+      {
+        "fecha": "02/06/2026",
+        "contacto": "Fierro Quiroa",
+        "titulo": "CITA: Jose Luis - CCP",
+        "estatus": "Asistió",
+        "proyecto": "CCP",
+        "interes": "Alto"
+      },
+      {
+        "fecha": "02/06/2026",
+        "contacto": "Yuri N/A",
+        "titulo": "CITA - Yuri PP",
+        "estatus": "Asistió",
+        "proyecto": "PP",
+        "interes": "Medio"
+      },
+      {
+        "fecha": "02/06/2026",
+        "contacto": "Diana Verdugo",
+        "titulo": "CITA - Diana - CCP",
+        "estatus": "Asistió",
+        "proyecto": "CCP",
+        "interes": "Medio"
+      },
+      {
+        "fecha": "01/06/2026",
+        "contacto": "Alejandro Arredondo",
+        "titulo": "CITA: Alejandro - CCP",
+        "estatus": "Asistió",
+        "proyecto": "CCP",
+        "interes": "Alto"
       }
     ],
     "Semana 01": [],
