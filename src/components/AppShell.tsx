@@ -166,7 +166,8 @@ export default function AppShell({ data, generado }: { data: DashboardData; gene
                         </td>
                       )}
                       <td style={{ borderTop: li === 0 ? border : undefined }}>{lead.fecha}</td>
-                      <td style={{ borderTop: li === 0 ? border : undefined }}>
+                      <td style={{ borderTop: li === 0 ? border : undefined }}>{lead.contacto}</td>
+                      <td style={{ borderTop: li === 0 ? border : undefined, fontWeight: 500, color: '#304450' }}>
                         {lead.recordId ? (
                           <a
                             href={`https://crm.zoho.com/crm/org666606221/tab/Events/${lead.recordId}`}
@@ -174,11 +175,10 @@ export default function AppShell({ data, generado }: { data: DashboardData; gene
                             rel="noopener noreferrer"
                             className={styles.crmLink}
                           >
-                            {lead.contacto}
+                            {lead.titulo}
                           </a>
-                        ) : lead.contacto}
+                        ) : lead.titulo}
                       </td>
-                      <td style={{ borderTop: li === 0 ? border : undefined, fontWeight: 500, color: '#304450' }}>{lead.titulo}</td>
                       <td style={{ borderTop: li === 0 ? border : undefined }}>{estatusTag(lead.estatus)}</td>
                       <td style={{ borderTop: li === 0 ? border : undefined }}>
                         <span className={lead.proyecto === 'CCP' ? dash.projTagCCP : dash.projTagPP}>
