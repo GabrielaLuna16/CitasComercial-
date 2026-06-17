@@ -1,5 +1,5 @@
 {
-  "generado": "2026-06-03T16:24:25.411Z",
+  "generado": "2026-06-17T23:15:51.330Z",
   "semanas": [
     "Semana 01",
     "Semana 02",
@@ -23,7 +23,9 @@
     "Semana 20",
     "Semana 21",
     "Semana 22",
-    "Semana 23"
+    "Semana 23",
+    "Semana 24",
+    "Semana 25"
   ],
   "citas": {
     "Semana 03": [
@@ -232,6 +234,14 @@
     ],
     "Semana 23": [
       {
+        "fecha": "05/06/2026",
+        "contacto": "Eduardo Rodriguez",
+        "titulo": "Cita: Eduardo - CCP",
+        "estatus": "Asistió",
+        "proyecto": "CCP",
+        "interes": "Alto"
+      },
+      {
         "fecha": "02/06/2026",
         "contacto": "Fierro Quiroa",
         "titulo": "CITA: Jose Luis - CCP",
@@ -264,6 +274,24 @@
         "interes": "Alto"
       }
     ],
+    "Semana 24": [
+      {
+        "fecha": "10/06/2026",
+        "contacto": "Frank CCP",
+        "titulo": "Cita: Frank - CCP",
+        "estatus": "Asistió",
+        "proyecto": "CCP",
+        "interes": "Bajo"
+      },
+      {
+        "fecha": "08/06/2026",
+        "contacto": "Victor Torres",
+        "titulo": "CITA: Victor - PP",
+        "estatus": "Asistió",
+        "proyecto": "PP",
+        "interes": "Medio"
+      }
+    ],
     "Semana 01": [],
     "Semana 02": [],
     "Semana 06": [],
@@ -271,6 +299,7 @@
     "Semana 17": [],
     "Semana 19": [],
     "Semana 20": [],
-    "Semana 21": []
+    "Semana 21": [],
+    "Semana 25": []
   }
 }
