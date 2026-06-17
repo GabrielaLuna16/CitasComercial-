@@ -169,7 +169,7 @@ export default function AppShell({ data, generado }: { data: DashboardData; gene
                       <td style={{ borderTop: li === 0 ? border : undefined }}>
                         {lead.recordId ? (
                           <a
-                            href={`https://crm.zoho.com/crm/org666606221/tab/Contacts/${lead.recordId}`}
+                            href={`https://crm.zoho.com/crm/org666606221/tab/Events/${lead.recordId}`}
                             target="_blank"
                             rel="noopener noreferrer"
                             className={styles.crmLink}
