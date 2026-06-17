@@ -88,3 +88,13 @@
   color: #9dbac8;
   text-align: center;
 }
+
+.crmLink {
+  color: #008fbe;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.crmLink:hover {
+  text-decoration: underline;
+}

@@ -1,5 +1,5 @@
 {
-  "generado": "2026-06-17T23:15:51.330Z",
+  "generado": "2026-06-17T23:27:04.533Z",
   "semanas": [
     "Semana 01",
     "Semana 02",
@@ -32,6 +32,7 @@
       {
         "fecha": "15/01/2026",
         "contacto": "Gabriel Lopez",
+        "recordId": "zcrm_3227853000239726287",
         "titulo": "Llamada: Gabriel - CCP",
         "estatus": "Asistió",
         "proyecto": "CCP",
@@ -42,6 +43,7 @@
       {
         "fecha": "23/01/2026",
         "contacto": "Jesus Ibarra",
+        "recordId": "zcrm_3227853000241015240",
         "titulo": "Llamada: Jesus - CCP",
         "estatus": "Asistió",
         "proyecto": "CCP",
@@ -50,6 +52,7 @@
       {
         "fecha": "22/01/2026",
         "contacto": "Omar Garcia",
+        "recordId": "zcrm_3227853000240320709",
         "titulo": "CITA: Omar - CCP",
         "estatus": "Asistió",
         "proyecto": "CCP",
@@ -58,6 +61,7 @@
       {
         "fecha": "20/01/2026",
         "contacto": "Anayanci Gaxiola",
+        "recordId": "zcrm_3227853000240075041",
         "titulo": "CITA: Anayanci - CCP",
         "estatus": "Asistió",
         "proyecto": "CCP",
@@ -68,6 +72,7 @@
       {
         "fecha": "28/01/2026",
         "contacto": "Manuel N/A",
+        "recordId": "zcrm_3227853000240801920",
         "titulo": "CITA: Manuel - PP",
         "estatus": "Asistió",
         "proyecto": "PP",
@@ -76,6 +81,7 @@
       {
         "fecha": "26/01/2026",
         "contacto": "Andrea Castellanos",
+        "recordId": "zcrm_3227853000240560841",
         "titulo": "CITA: Guillermo - CCP",
         "estatus": "Asistió",
         "proyecto": "CCP",
@@ -86,6 +92,7 @@
       {
         "fecha": "13/02/2026",
         "contacto": "Oscar Gonzalez",
+        "recordId": "zcrm_3227853000243348147",
         "titulo": "CITA: Oscar - CCP",
         "estatus": "No asistío / Canceló",
         "proyecto": "CCP",
@@ -94,6 +101,7 @@
       {
         "fecha": "10/02/2026",
         "contacto": "Rosario N/A",
+        "recordId": "zcrm_3227853000243190673",
         "titulo": "CITA: Rosario - PP",
         "estatus": "Asistió",
         "proyecto": "PP",
@@ -104,6 +112,7 @@
       {
         "fecha": "17/02/2026",
         "contacto": "Javier Urbieta Ainslie",
+        "recordId": "zcrm_3227853000243765157",
         "titulo": "CITA: Javier - PP",
         "estatus": "Asistió",
         "proyecto": "PP",
@@ -114,6 +123,7 @@
       {
         "fecha": "03/03/2026",
         "contacto": "Karlo Hernandez",
+        "recordId": "zcrm_3227853000245776534",
         "titulo": "CITA: Karlo - CCP",
         "estatus": "No asistío / Canceló",
         "proyecto": "CCP",
@@ -124,6 +134,7 @@
       {
         "fecha": "13/03/2026",
         "contacto": "Rosario N/A",
+        "recordId": "zcrm_3227853000247282033",
         "titulo": "CITA: Rosario - PP",
         "estatus": "Asistió",
         "proyecto": "PP",
@@ -134,6 +145,7 @@
       {
         "fecha": "17/03/2026",
         "contacto": "Antonio Furlong",
+        "recordId": "zcrm_3227853000247317144",
         "titulo": "CITA: Antonio - CCP",
         "estatus": "Asistió",
         "proyecto": "CCP",
@@ -144,6 +156,7 @@
       {
         "fecha": "27/03/2026",
         "contacto": "Ivan Cantu",
+        "recordId": "zcrm_3227853000248921184",
         "titulo": "CITA: Ivan - CCP",
         "estatus": "Asistió",
         "proyecto": "CCP",
@@ -154,6 +167,7 @@
       {
         "fecha": "01/04/2026",
         "contacto": "Adriana Franco",
+        "recordId": "zcrm_3227853000248014459",
         "titulo": "CITA: Adriana - CCP",
         "estatus": "Reprogramada",
         "proyecto": "CCP",
@@ -164,6 +178,7 @@
       {
         "fecha": "09/04/2026",
         "contacto": "Emanuel Ortega Barcenas",
+        "recordId": "zcrm_3227853000250601605",
         "titulo": "CITA: Emanuel - PP",
         "estatus": "Asistió",
         "proyecto": "PP",
@@ -172,6 +187,7 @@
       {
         "fecha": "06/04/2026",
         "contacto": "Nadia Ivonne",
+        "recordId": "zcrm_3227853000249847836",
         "titulo": "CITA: Nadia - CCP",
         "estatus": "No asistío / Canceló",
         "proyecto": "CCP",
@@ -182,6 +198,7 @@
       {
         "fecha": "17/04/2026",
         "contacto": "Norma Balderas Gomez",
+        "recordId": "zcrm_3227853000251677589",
         "titulo": "CITA: Norma - CCP",
         "estatus": "No asistío / Canceló",
         "proyecto": "CCP",
@@ -192,6 +209,7 @@
       {
         "fecha": "30/04/2026",
         "contacto": "Restaurante Coreano",
+        "recordId": "zcrm_3227853000252726595",
         "titulo": "CITA: Restaurante coreano - CCP",
         "estatus": "Asistió",
         "proyecto": "CCP",
@@ -200,6 +218,7 @@
       {
         "fecha": "30/04/2026",
         "contacto": "Gloria Gonzalez",
+        "recordId": "zcrm_3227853000252608609",
         "titulo": "CITA: Gloria - PP",
         "estatus": "No asistío / Canceló",
         "proyecto": "PP",
@@ -208,6 +227,7 @@
       {
         "fecha": "27/04/2026",
         "contacto": "Edgar Hurtado",
+        "recordId": "zcrm_3227853000252522014",
         "titulo": "CITA: Edgar - PP",
         "estatus": "Asistió",
         "proyecto": "PP",
@@ -218,6 +238,7 @@
       {
         "fecha": "26/05/2026",
         "contacto": "Abraham N/A",
+        "recordId": "zcrm_3227853000256675162",
         "titulo": "CITA: Abraham - CCP",
         "estatus": "Asistió",
         "proyecto": "CCP",
@@ -226,6 +247,7 @@
       {
         "fecha": "29/05/2026",
         "contacto": "Josue Arceo",
+        "recordId": "zcrm_3227853000256571019",
         "titulo": "CITA: Josue - CCP",
         "estatus": "No asistío / Canceló",
         "proyecto": "CCP",
@@ -236,6 +258,7 @@
       {
         "fecha": "05/06/2026",
         "contacto": "Eduardo Rodriguez",
+        "recordId": "zcrm_3227853000257739262",
         "titulo": "Cita: Eduardo - CCP",
         "estatus": "Asistió",
         "proyecto": "CCP",
@@ -244,6 +267,7 @@
       {
         "fecha": "02/06/2026",
         "contacto": "Fierro Quiroa",
+        "recordId": "zcrm_3227853000257242608",
         "titulo": "CITA: Jose Luis - CCP",
         "estatus": "Asistió",
         "proyecto": "CCP",
@@ -252,6 +276,7 @@
       {
         "fecha": "02/06/2026",
         "contacto": "Yuri N/A",
+        "recordId": "zcrm_3227853000257205297",
         "titulo": "CITA - Yuri PP",
         "estatus": "Asistió",
         "proyecto": "PP",
@@ -260,6 +285,7 @@
       {
         "fecha": "02/06/2026",
         "contacto": "Diana Verdugo",
+        "recordId": "zcrm_3227853000257205095",
         "titulo": "CITA - Diana - CCP",
         "estatus": "Asistió",
         "proyecto": "CCP",
@@ -268,6 +294,7 @@
       {
         "fecha": "01/06/2026",
         "contacto": "Alejandro Arredondo",
+        "recordId": "zcrm_3227853000256946569",
         "titulo": "CITA: Alejandro - CCP",
         "estatus": "Asistió",
         "proyecto": "CCP",
@@ -278,6 +305,7 @@
       {
         "fecha": "10/06/2026",
         "contacto": "Frank CCP",
+        "recordId": "zcrm_3227853000258370018",
         "titulo": "Cita: Frank - CCP",
         "estatus": "Asistió",
         "proyecto": "CCP",
@@ -286,6 +314,7 @@
       {
         "fecha": "08/06/2026",
         "contacto": "Victor Torres",
+        "recordId": "zcrm_3227853000257547061",
         "titulo": "CITA: Victor - PP",
         "estatus": "Asistió",
         "proyecto": "PP",

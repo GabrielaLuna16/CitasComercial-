@@ -166,7 +166,18 @@ export default function AppShell({ data, generado }: { data: DashboardData; gene
                         </td>
                       )}
                       <td style={{ borderTop: li === 0 ? border : undefined }}>{lead.fecha}</td>
-                      <td style={{ borderTop: li === 0 ? border : undefined }}>{lead.contacto}</td>
+                      <td style={{ borderTop: li === 0 ? border : undefined }}>
+                        {lead.recordId ? (
+                          <a
+                            href={`https://crm.zoho.com/crm/org666606221/tab/Contacts/${lead.recordId}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className={styles.crmLink}
+                          >
+                            {lead.contacto}
+                          </a>
+                        ) : lead.contacto}
+                      </td>
                       <td style={{ borderTop: li === 0 ? border : undefined, fontWeight: 500, color: '#304450' }}>{lead.titulo}</td>
                       <td style={{ borderTop: li === 0 ? border : undefined }}>{estatusTag(lead.estatus)}</td>
                       <td style={{ borderTop: li === 0 ? border : undefined }}>
